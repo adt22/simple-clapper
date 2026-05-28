@@ -1,0 +1,13 @@
+App(
+    appid="simple_clapper",
+    name="Simple Clapper",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="clapper_app",
+    requires=["gui", "notification"],
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_icon="clapper.png",
+    fap_version=(0, 2),
+    fap_description="Minimalist digital clapperboard — sync flash, beep, LED",
+    fap_author="v0.2",
+)
