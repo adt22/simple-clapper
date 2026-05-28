@@ -8,6 +8,7 @@ App(
     fap_category="Tools",
     fap_icon="clapper.png",
     fap_version=(0, 2),
-    fap_description="Minimalist digital clapperboard — sync flash, beep, LED",
-    fap_author="v0.2",
+    fap_description="Minimalist digital clapperboard with sync flash, beep and LED. For YouTubers and indie filmmakers.",
+    fap_author="Cinemateum",
+    fap_weburl="https://www.youtube.com/@cinemateum",
 )
